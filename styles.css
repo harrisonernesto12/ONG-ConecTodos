@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background-color:  rgb(230, 230, 252);
+    gap: 30px;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    background-color: rgb(198, 221, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 76, 110);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 200px;
+    height: 220px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+ 
+}
+.card img {
+    width: 100%;
+    border-radius: 8px
+}
+
+.card button {
+    background-color: rgb(255, 51, 0);
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+}
+.card button:hover {
+    background-color: rgb(204, 0, 0);
+}
+
+header {
+    display: flex;
+    flex-direction: line;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 76, 110);
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+header nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.conteiner-mvv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 60px;
+    background-color: rgb(198, 221, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-mvv{
+    background-color: rgb(16, 76, 110);
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    background-color: rgb(20, 100, 212);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

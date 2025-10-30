@@ -1,2 +1,2 @@
 # ONG-ConecTodos
-Criação de um site para um ON
+Criação de um site para uma ONG
